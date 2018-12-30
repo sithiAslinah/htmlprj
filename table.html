@@ -1,0 +1,74 @@
+<html>
+<head><title>Table</title>
+<style>
+table, th,td{
+border: 2px solid red;
+border-collapse:collapse;
+text-align:center;
+padding: 10px;
+}
+#custom-tab thead{
+	background-color:#eee;
+    color:white;
+}
+</style>
+</head>
+<body>
+	<h2> This is simple table</h2>
+	<table width="100%">
+		<thead>
+			<tr>
+			<th>First</th>
+			<th>second</th>
+			<th>third</th>
+		</tr>
+		</thead>
+		<tr>
+			<td>siti</td>
+			<td>fathi</td>
+			<td>mom</td>
+		</tr>
+</table>
+		<h2> Table with colspan</h2>
+	<table width="100%">
+		<thead>
+			<tr>
+			<th>First</th>
+			<th colspan="2">second & three</th>
+		
+		</tr>
+		</thead>
+		<tr>
+			<td>siti</td>
+			<td>fathi</td>
+			<td>mom</td>
+		</tr>	
+	</table>
+	<h2> Table with rowspan </h2>
+	<table width="100%" id="custom-tab">
+		<thead>
+			<tr>
+			<th>First</th>
+			<th>second</th>
+			<th>third</th>
+		</tr>
+		</thead>
+		<tr>
+			<td rowspan="2">siti</td>
+			<td>fathi</td>
+		    <td>unk</td>
+		</tr>
+			<tr>
+			
+			<td>yus</td>
+		    <td>far</td>
+		</tr>
+			<tr>
+			<td>abi</td>
+			<td>think</td>
+		    <td>dne</td>
+		</tr>
+	</table>
+		<p> Copyright <sup>&copy; 2018</sup></p>
+</body>
+</html>
